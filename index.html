@@ -1,323 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RETRO NET</title>
 
-<meta charset="UTF-8"><!DOCTYPE html>
-<html lang="pt-BR">
+    <link rel="stylesheet" href="style.css">
 
-<head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>RETRO NET</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
 <header>
+    <div class="logo">RETRO NET</div>
 
-<div class="logo">
-
-RETRO NET
-
-</div>
-
-<nav>
-
-<a href="index.html">HOME</a>
-
-<a href="blog.html">BLOG</a>
-
-<a href="perfil.html">PERFIL</a>
-
-<a href="login.html">LOGIN</a>
-
-</nav>
-
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="blog.html">BLOG</a>
+        <a href="perfil.html">PERFIL</a>
+        <a href="login.html">LOGIN</a>
+    </nav>
 </header>
-
-<main class="hero">
-
-<h1>
-
-BEM-VINDO À RETRO NET
-
-</h1>
-
-<p>
-
-Uma pequena comunidade retrô feita para amigos.
-
-</p>
-
-<br>
-
-<div id="userArea" class="card">
-
-Carregando usuário...
-
-</div>
-
-<br>
-
-<div class="card">
-
-<h2>
-
-SOBRE
-
-</h2>
-
-<p>
-
-💾 Rede social inspirada na internet clássica.
-
-</p>
-
-<p>
-
-📝 Compartilhe posts com seus amigos.
-
-</p>
-
-<p>
-
-💬 Comente nas publicações.
-
-</p>
-
-<p>
-
-❤️ Curta os posts.
-
-</p>
-
-<p>
-
-👤 Edite seu perfil.
-
-</p>
-
-</div>
-
-<br>
-
-<div id="adminPanel" class="card" style="display:none;">
-
-<h2>
-
-PAINEL ADMIN
-
-</h2>
-
-<p>
-
-Bem-vindo, administrador.
-
-</p>
-
-<button onclick="window.location.href='blog.html'">
-
-Gerenciar Posts
-
-</button>
-
-</div>
-
-</main>
-
-<footer>
-
-RETRO NET © 2026
-
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-
-<script src="supa.js"></script>
-
-<script src="app.js"></script>
-
-</body>
-
-</html>
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
-
-<title>RETRO NET</title>
-
-<link rel="stylesheet" href="style.css">
-
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
-
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-rel="stylesheet">
-
-</head>
-
-<body>
-
-
-
-<header>
-
-<h1>
-
-RETRO NET
-
-</h1>
-
-<nav>
-
-<a href="index.html">
-
-HOME
-
-</a>
-
-<a href="blog.html">
-
-BLOG
-
-</a>
-
-<a href="perfil.html">
-
-PERFIL
-
-</a>
-
-<a href="login.html">
-
-LOGIN
-
-</a>
-
-</nav>
-
-</header>
-
-
-
-
 
 <main>
 
+    <section class="hero">
+        <h1>BEM-VINDO À RETRO NET</h1>
+        <p>Uma pequena comunidade retrô feita para amigos.</p>
+    </section>
 
+    <br>
 
-<section class="hero">
+    <div id="userArea" class="card">
+        Carregando usuário...
+    </div>
 
-<h2>
+    <br>
 
-Bem-vindo!
+    <div class="card">
+        <h2>Sobre</h2>
 
-</h2>
+        <p>💾 Rede social inspirada na internet clássica.</p>
+        <p>📝 Compartilhe posts com seus amigos.</p>
+        <p>💬 Comente nas publicações.</p>
+        <p>❤️ Curta os posts.</p>
+        <p>👤 Edite seu perfil.</p>
+    </div>
 
-<p>
+    <br>
 
-A rede social retrô da comunidade.
+    <div class="card">
+        <h2>Novidades</h2>
 
-</p>
+        <p>🟢 Sistema usando Supabase</p>
+        <p>👤 Login online</p>
+        <p>📝 Blog compartilhado</p>
+        <p>💬 Comentários online</p>
+    </div>
 
-</section>
+    <br>
 
+    <div id="adminPanel" class="card" style="display:none;">
+        <h2>PAINEL ADMIN</h2>
 
+        <p>Bem-vindo, administrador.</p>
 
-
-
-<div
-id="userArea">
-
-Carregando...
-
-</div>
-
-
-
-
-
-<div class="card">
-
-<h2>
-
-Novidades
-
-</h2>
-
-<p>
-
-🟢 Sistema usando Supabase
-
-</p>
-
-<p>
-
-👤 Login online
-
-</p>
-
-<p>
-
-📝 Blog compartilhado
-
-</p>
-
-<p>
-
-💬 Comentários online
-
-</p>
-
-</div>
-
-
-
-
-
-<div
-id="adminPanel">
-
-</div>
-
-
+        <button onclick="window.location.href='blog.html'">
+            Gerenciar Posts
+        </button>
+    </div>
 
 </main>
 
-
-
 <footer>
-
-RETRO NET © 2026
-
+    RETRO NET © 2026
 </footer>
 
-
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-
 <script src="supa.js"></script>
-
 <script src="app.js"></script>
 
 </body>
-
 </html>
